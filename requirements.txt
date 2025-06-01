@@ -1,0 +1,6 @@
+python-telegram-bot==22.1
+openai
+python-dotenv
+pytesseract
+Pillow
+Flask
