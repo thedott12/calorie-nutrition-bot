@@ -8,3 +8,7 @@ def webhook():
     update = request.get_json(force=True)
     application.update_queue.put_nowait(update)
     return "ok", 200
+
+@app.route('/', methods=['GET'])
+def index():
+    return "Bot is running", 200
