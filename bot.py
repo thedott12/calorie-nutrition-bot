@@ -4,7 +4,7 @@ from handlers import text_handler, photo_handler
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 application = ApplicationBuilder().token(TOKEN).build()
 
